@@ -158,7 +158,7 @@ def save_json_snapshot(json_data: list[ApiLocation]) -> Path:
 if __name__ == "__main__":
     while True:
         json_data = get_json_data()
-        time.sleep(300)  # Sleep for 5 minutes
+        time.sleep(1200)  # Sleep for 20 minutes
 
     # nah
     if json_data:

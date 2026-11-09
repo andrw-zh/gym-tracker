@@ -1,0 +1,7 @@
+name: gym-tracker
+
+services:
+  sourcing:
+    build: .
+    volumes:
+      - ./json:/app/json
