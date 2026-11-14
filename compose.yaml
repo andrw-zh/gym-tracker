@@ -5,3 +5,4 @@ services:
     build: .
     volumes:
       - ./json:/app/json
+    restart: unless-stopped
